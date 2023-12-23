@@ -12,6 +12,8 @@ body {
 
   #main {
     margin-top: -150px;
+    height: fit-content;
+    width: fit-content;
   }
 
   .button{
@@ -63,10 +65,28 @@ body {
   margin-top: 20px;
   }
 
-.icon{
+.icon1{
   cursor: pointer;
-  width: 90px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 10px;
+  width: 40px;
+  float: left;
+  display: inline;
+  margin-top: -10px;
+  margin-left: 60px;
+}
+
+.icon2{
+  cursor: pointer;
+  width: 40px;
+  float: right;
+  display: flex;
+  margin-top: -10px;
+  margin-right: 60px;
+}
+p {
+  display: inline;
+  color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: arial;
+  font-size: 17px;
 }
