@@ -89,4 +89,8 @@ p {
   margin-right: 5px;
   font-family: arial;
   font-size: 17px;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
 }
